@@ -1,11 +1,3 @@
-python -m venv venv
-venv\Scripts\activate
-
-pip install -r requirements.txt
-
-streamlit run app.py
-•
-
 # 🚀 Creators Workflow AI
 
 Transform any topic or idea into complete, ready-to-publish content across multiple platforms—instantly and without AI APIs.
@@ -34,7 +26,7 @@ Content creators waste hours:
 - **Goal:** Educate, Inspire, Entertain, Sell, Build Community, Drive Traffic, Increase Engagement
 
 ## 📁 Project Structure
-```
+
 creators-workflow-ai/
 ├── app.py                    # Main Streamlit application
 ├── config.py                 # App-wide configuration
@@ -46,23 +38,11 @@ creators-workflow-ai/
 │   └── utils/                # Formatting & validation utilities
 ├── data/                     # Static databases (hashtags, keywords)
 └── tests/                    # Unit tests
-```
+
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Python 3.8 or higher
-- pip (Python package manager)
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/creators-workflow-ai.git
-cd creators-workflow-ai
-```
-
-2. **Create a virtual environment (recommended)**
+1. **Create a virtual environment (recommended)**
 ```bash
 # Windows
 python -m venv venv
@@ -73,19 +53,15 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. **Install dependencies**
+2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Run the application**
+3. **Run the application**
 ```bash
 streamlit run app.py
 ```
-
-5. **Open your browser**
-- The app will automatically open at `http://localhost:8501`
-- If not, manually navigate to the URL shown in your terminal
 
 ## 📝 Usage Example
 
@@ -153,19 +129,11 @@ Introduction: [Comprehensive intro paragraph]
 [Additional sections and conclusion]
 ```
 
-## 🧪 Running Tests
-```bash
-# Test processors
-python tests/test_processors.py
-
-# Test generators
-python tests/test_generators.py
-```
 
 ## 🛠️ Technology Stack
 
 - **Frontend:** Streamlit
-- **Backend Logic:** Pure Python (no AI APIs)
+- **Backend Logic:** Python
 - **Content Generation:** Template-based + rule-based algorithms
 - **Text Processing:** Custom keyword extraction and topic categorization
 
@@ -177,12 +145,6 @@ python tests/test_generators.py
 - **Privacy-First:** Your data never leaves your machine
 - **Extensible:** Easy to add new content types
 
-## 📦 Dependencies
-
-This project uses minimal dependencies:
-- `streamlit` - Web application framework
-
-No AI/ML libraries, no external API calls, no heavy dependencies.
 
 ## 🤝 Contributing
 
@@ -200,10 +162,3 @@ This project is open-source and available under the MIT License.
 
 Built for content creators who value speed, privacy, and simplicity.
 
-## 📧 Support
-
-For issues or questions, please open an issue on GitHub.
-
----
-
-**Made with ❤️ for Creators | No AI APIs • Pure Python Logic**
