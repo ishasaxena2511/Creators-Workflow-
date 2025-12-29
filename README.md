@@ -26,7 +26,7 @@ Content creators waste hours:
 - **Goal:** Educate, Inspire, Entertain, Sell, Build Community, Drive Traffic, Increase Engagement
 
 ## 📁 Project Structure
-
+```
 creators-workflow-ai/
 ├── app.py                    # Main Streamlit application
 ├── config.py                 # App-wide configuration
@@ -38,6 +38,7 @@ creators-workflow-ai/
 │   └── utils/                # Formatting & validation utilities
 ├── data/                     # Static databases (hashtags, keywords)
 └── tests/                    # Unit tests
+```
 
 
 ## 🚀 Quick Start
@@ -161,4 +162,5 @@ This project is open-source and available under the MIT License.
 ## 🙏 Acknowledgments
 
 Built for content creators who value speed, privacy, and simplicity.
+
 
